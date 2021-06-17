@@ -1,0 +1,25 @@
+{
+  "name": "spambot",
+  "version": "0.0.1",
+  "description": "spams spams spams spams spams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Greyson Phipps",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "canvas": "^2.8.0",
+    "discord-music-system": "^3.3.15",
+    "discord.js": "^12.5.3",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "xmlhttprequest": "^1.8.0",
+    "ytdl-core": "^4.8.2"
+  }
+}
