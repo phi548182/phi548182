@@ -334,7 +334,7 @@ client.on('message', message => {
     }
 
     if (chat.startsWith(prefix + 'purge ')) {
-        //if (message.member.roles.cache.some(role => role.name === 'chat mod') || message.member.roles.cache.some(role => role.name === 'admin')){
+        //if (message.member.roles.cache.some(role => role.name === 'mod') || message.member.roles.cache.some(role => role.name === 'admin')){
         //    if (message.channel.type == 'dm'){
         //        message.channel.send('Sorry! I can\'t do that command in DMs.');
         //    } else {
@@ -702,4 +702,4 @@ client.on('message', message => {
 
 
 
-client.login('NzcwMzc2MDE2MzQyMDI0MjIy.X5cqkw.6HVNgTYNvvpjLcX3RbSjpbeZWXs');
+client.login('BOT TOKEN HERE');
